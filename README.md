@@ -1,1 +1,1 @@
-# Grid-Synchronisation-using-MachineLearning
+# Grid Synchronisation using Machine Learning
