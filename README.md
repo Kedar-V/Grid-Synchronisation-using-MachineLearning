@@ -17,7 +17,7 @@ The lack of large scale, well curated datasets which can accurately model the re
 ## Results :
 The model is evaluated on its ability to predict the am- plitude, phase and frequency of the grid signal. The waveform in blue represents the original signal, and the one in red represents the predicted signal. From these graphs, we are able to gauge that the model is able to precisely predict the desired values even during severe fault conditions and is quickly synced with the input signal. The mean average error for the three predictions is of the order 10<sup>3</sup> after <b>200 epochs</b> as shown in the Table.
 
-<img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" width="250"/>
+<img src="https://github.com/Kedar-V/Grid-Synchronisation-using-MachineLearning/blob/main/images/res.png" width="350"/>
 
 |   | Traning Mae | Validation Mae |  
 | ----- | ------- | --- | 
