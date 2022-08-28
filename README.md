@@ -6,3 +6,21 @@ Grid synchronisation is a crucial aspect in controlling grid-connected power ele
 <li> Faster recognition of phase, amplitude and frequency </li>
 <li> Better accuracy </li>
 <li> Ease in deployment at any location with minor to no fine tuning </li>
+
+## Dataset:
+
+The lack of large scale, well curated datasets which can accurately model the real world scenarios is one of the limiting factors in the large scale adoption of machine learning based solutions in the electrical domain. To solve this issue a new dataset titled ”GridSync” is prepared. The algorithm used for data generation is **_NOT INCLUDED IN THIS REPOSITORY DUE TO PRIVACY REASONS (UNTIL PUBLISHED)
+
+## MY APPROACH : 
+ **_NOT INCLUDED IN THIS REPOSITORY DUE TO PRIVACY REASONS (UNTIL PUBLISHED)
+ 
+## Results :
+The model is evaluated on its ability to predict the am- plitude, phase and frequency of the grid signal. The waveform in blue represents the original signal, and the one in red represents the predicted signal. From these graphs, we are able to gauge that the model is able to precisely predict the desired values even during severe fault conditions and is quickly synced with the input signal. The mean average error for the three predictions is of the order 10<sup>3</sup> after <b>200 epochs</b> as shown in the Table.
+
+<img src="https://user-images.githubusercontent.com/69817938/97804111-230a0300-1c67-11eb-92e6-f9fdeb224084.png" width="250"/>
+
+|   | Traning Mae | Validation Mae |  
+| ----- | ------- | --- | 
+| Amplitude | 0.004 | 0.0011 |
+| Frequency | 0.004 | 0.00378 |
+| Phase | 0.0097 | 0.0082 |
